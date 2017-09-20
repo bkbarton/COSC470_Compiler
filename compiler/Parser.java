@@ -59,7 +59,7 @@ public class Parser {
         return true;
     }
 //########## SEMANTIC VALUES ##########
-//public class ParserVal is defined in ParserVal.java
+
     String yytext;//user variable to return contextual strings
     Token yyval; //used to return semantic vals from action routines
     Token yylval; 
@@ -386,7 +386,7 @@ public class Parser {
                 {
                     yyval = val_peek(yym - 1); //get current semantic value
                 }
-                yyval = dup_yyval(yyval); //duplicate yyval if ParserVal is used as semantic value
+                yyval = dup_yyval(yyval); //duplicate yyval if Token is used as semantic value
                 switch (yyn) {
 //########## USER-SUPPLIED ACTIONS ##########
                     case 1: {
