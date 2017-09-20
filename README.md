@@ -1,13 +1,11 @@
 Handles the lexical analysis, syntax analysis, semantic analysis, 
-and generates intermediate code for the provided intermediate code engine below:
-
-http://faculty.frostburg.edu/cosc/mohsen-chitsaz-home/ice/#1
+and generates intermediate code for [ICE](http://faculty.frostburg.edu/cosc/mohsen-chitsaz-home/ice/#1) 
 
 
-Grammar provided for this assignmnet
 
+The provided grammar: 
 
- Start:
+```
  	 access static void ID "(" identifier_list ")" "{"
  	 declarations
  	 compound_statement
@@ -55,3 +53,4 @@ Grammar provided for this assignmnet
     	  | "/"
     	  | "%"
 	 factor: "literal"
+```
