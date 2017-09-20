@@ -1,1 +1,4 @@
-Initial commit of completed compiler created in COSC 470.
+This project handles the lexical analysis, syntax analysis, semantic analysis, 
+and intermediate code generations for the provided intermediate code engine below:
+
+http://faculty.frostburg.edu/cosc/mohsen-chitsaz-home/ice/#1
