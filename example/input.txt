@@ -1,0 +1,16 @@
+public static void TEST() //Testing to see if comments are removed
+{
+	var GO: int;
+	var TEMP: char;
+		{
+		get(GO);
+		TEMP = 'a';
+			{		
+				if(GO <> 5)
+				   if(GO == 5){
+					 GO = GO + 5;
+					 put(GO)
+				   }
+			}
+	}
+}  $
